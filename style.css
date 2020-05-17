@@ -4,3 +4,39 @@ html{
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body{
+  background-color:#2C2141;
+
+}
+
+.business-card{
+  background-color: #F8F8F8;
+}
+.business-card__header--name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36;
+
+}
+.business-card__header--positon{
+  color: #545454;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 18;
+}
+
+.business-card__content--description, .business-card__content--social-media{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16;
+
+}
+
+.link--social-media{
+  color: #E20613;
+  text-decoration: none;
+}
+.text--special{
+  color: #ED6D05;
+  font-weight: normal;
+}
+
