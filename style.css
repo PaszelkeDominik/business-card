@@ -20,14 +20,21 @@ body {
   width: 624px;
   padding: 32px;
 }
+.business-card {
+  display: flex;
+  /* align-items: flex-start; */
+}
 .business-card__image {
+  align-self: flex-start ;
+  margin-right: 32px;
 }
 .business-card__content--header {
+  margin-bottom:24px;
+
 }
 .business-card__content--name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36;
-  max-width: 380px;
   font-weight: normal;
   margin: 0;
 }
@@ -37,7 +44,6 @@ body {
   font-style: italic;
   font-size: 18;
   margin: 0;
-  max-width: 380px;
 }
 
 .business-card__content--description,
@@ -45,7 +51,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16;
   line-height: 22px;
-  max-width: 380px;
+   margin:0;
+}
+.social-media--extra-margin{
+  margin-top: 22px;
 }
 
 .link--social-media {
