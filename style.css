@@ -1,42 +1,58 @@
-html{
+html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
-body{
-  background-color:#2C2141;
-
+body {
+  background-color: #2c2141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-
-.business-card{
-  background-color: #F8F8F8;
+.main {
+  margin: 16px;
+  background-color: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  padding: 32px;
 }
-.business-card__header--name{
+.business-card__image {
+}
+.business-card__content--header {
+}
+.business-card__content--name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 36;
-
+  max-width: 380px;
+  font-weight: normal;
+  margin: 0;
 }
-.business-card__header--positon{
+.business-card__content--positon {
   color: #545454;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-size: 18;
+  margin: 0;
+  max-width: 380px;
 }
 
-.business-card__content--description, .business-card__content--social-media{
+.business-card__content--description,
+.business-card__content--social-media {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16;
-
+  line-height: 22px;
+  max-width: 380px;
 }
 
-.link--social-media{
-  color: #E20613;
+.link--social-media {
+  color: #e20613;
   text-decoration: none;
 }
-.text--special{
-  color: #ED6D05;
+.text--special {
+  color: #ed6d05;
   font-weight: normal;
 }
-
